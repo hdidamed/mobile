@@ -509,7 +509,7 @@
                 padding: 10px 20px; 
                 font-size: 25px; 
                 text-align: center;
-                width: 90%;
+                width: 70%;
                 animation: fam;
                 animation-duration: 9s;
                 animation-iteration-count: infinite;
@@ -826,6 +826,10 @@
                 width: 17vw;
                 height: 27vw;
             }
+            .prodd{
+                background: url("logo0.jpg") center no-repeat;
+                background-size: cover;
+            }
             
 
 </style>
@@ -1083,7 +1087,7 @@
                 <th colspan="3"><br><br></th>
             </tr>
             <tr>
-                <th colspan="3" class="nos"><h2 class="h3d" >About</h2><br><p class="sd2"><span class="gold">Veni</span>, <span class="gold">Vidi</span>, <span class="gold">Vici</span> <br> ("<span class="white">I came, I saw, I conquered</span>") is a Latin phrase used to refer to a swift, conclusive victory.  The phrase is popularly attributed to Julius Caesar.
+                <th colspan="3" class="nos"><h2 class="h3d" >About</h2><br><p class="sd2"><span class="gold">Veni</span>, <span class="gold">Vidi</span>, <span class="gold">Vici</span> <br> ("<span class="white">I came, I saw, I conquered</span>") <br><span class="pquote2ar"> ( أتَيـتُ     &nbsp;   فَرَأيـتُ    &nbsp;    فَانتَصَـرتُ )</span><br>is a Latin phrase used to refer to a swift, conclusive victory.  The phrase is popularly attributed to Julius Caesar.
                 </p><br><br><button id="knowwmore" onclick="link()">&nbsp;Know More&nbsp;</button></th>
             </tr>
         </table>
@@ -1118,6 +1122,7 @@
 </br>
 </br>
 <hr class="hrbanner">
+<div class="prodd">
 <br><br>
 <center><h3 class="h33">produit</h3></center>
 <br>
@@ -1129,6 +1134,7 @@
 </br>
 <br>
 <br>
+</div>
 </div>
 </div>
 </section>
@@ -1269,7 +1275,7 @@ function main(){ol.style.display="none";
         body.style.display="inline";
         }}
 function hide(){document.getElementById("alert").style.display="none";}
-var countDownDate = new Date("FEB 29, 2024 16:00:00").getTime();
+var countDownDate = new Date("MAR 02, 2023 16:00:00").getTime();
 var x = setInterval(function() {
   var now = new Date().getTime();
   var distance = countDownDate - now;
